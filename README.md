@@ -1,6 +1,6 @@
 # AWS EKS Cluster provisioning with Terraform
 
-Create AWS EKS Cluster with Control Plane and 2 worker nodes on EC2 t2.micro instances. Region = us-east-1.
+Create AWS EKS Cluster (Kubernetes 1.18) with Control Plane and 2 worker nodes on EC2 t2.micro instances. Region = us-east-1.
 
 The terraform file is divided into two blocks:
   1. The first block is the VPC module.
