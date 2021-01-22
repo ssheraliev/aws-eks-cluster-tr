@@ -63,8 +63,8 @@ cluster_name    = "ENTER Cluster name"
   node_groups = {
     first = {
       desired_capacity = 3
-      max_capacity     = 3
-      min_capacity     = 5
+      max_capacity     = 5
+      min_capacity     = 3
 
       instance_type = "t2.micro"
     }
